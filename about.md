@@ -5,5 +5,5 @@ permalink: /about/
 ---
 
 I like to learn and create for fun!  
-This blog contains my everyday art.
+This blog contains my everyday art and experiments.
 
