@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Blog
-category: - MileStone
+category: MileStone
 ---
 
 First blog created!
