@@ -4,6 +4,5 @@ title: About
 permalink: /about/
 ---
 
-I like to learn and create for fun!  
-This blog contains my everyday art and experiments.
+My dream is to make a game one day.
 

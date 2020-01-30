@@ -29,7 +29,7 @@
           <nav>
             <a href="{{ site.baseurl }}/">All Posts</a>
             {% for category in site.categories %}
-            <a href="{{ site.baseurl }}/">{{ category[0] }}</a>
+            <a href="{{ site.baseurl }}/{{ category[0] }}">{{ category[0] }}</a>
             {% endfor %}
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
