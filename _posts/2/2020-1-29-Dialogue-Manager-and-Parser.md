@@ -5,7 +5,6 @@ category: Code
 ---
 **Overview**  
 This is a dialogue manager I created in Godot. The purpose of this dialogue manager is act as an easy tool to create small games and experiment with stuff quickly. The dialogue manager provides a simple dialogue GUI and a json parser.  
-*Note: this component is in constant update*  
 
 [<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/)
 
