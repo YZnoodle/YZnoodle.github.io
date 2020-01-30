@@ -3,7 +3,7 @@ layout: post
 title: 2D Walk Cycle
 category: Art
 ---
-[<img src="{{ site.baseurl }}/images/art/0120walk.GIF" style="width: 480px;"/>]({{ site.baseurl }}/)
+[<img src="{{ site.baseurl }}/images/art/0120walk.GIF" style="width: 120px;"/>]({{ site.baseurl }}/)
 
 Lessons learned:  
 One reason that my walk cycle looks choppy is because I am not keeping the shapes constant sized/volumed. For example, the size of the legs varies between frames. 
