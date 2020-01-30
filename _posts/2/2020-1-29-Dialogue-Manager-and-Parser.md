@@ -4,13 +4,13 @@ title: Reusable json dialogue parser
 category: [code]
 ---
 **Overview**  
-This is a dialogue manager I created in Godot. The purpose of this dialogue manager is act as an easy tool to create small games and experiment with stuff quickly. The dialogue manager provides a simple dialogue GUI and a json parser.  
+This is a dialogue manager I created in Godot. This dialogue manager is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
 
 [<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/)
 
 **How to use**  
 At the start of the game:  
-1. Instance dialogue manager  
+1. Instance a dialogue manager  
 2. Add dialogue manager to tree  
 At a conversation:  
 3. Call dialogue manager with the conversation’s json file path  
