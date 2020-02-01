@@ -6,6 +6,8 @@ category: [code]
 **Overview**  
 This is a dialogue manager I created in Godot. This dialogue manager is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
 
+<!--more-->
+
 [<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/)
 
 **How to use**  
