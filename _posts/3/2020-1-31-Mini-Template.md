@@ -11,7 +11,7 @@ A minimalistic game template for Godot (in mobile params).
 <!--more-->
 
 **Find on github:**  
-[MiniTemplate](https://github.com/YZnoodle/MiniTemplate)
+[https://github.com/YZnoodle/MiniTemplate](https://github.com/YZnoodle/MiniTemplate)
 
 
 
