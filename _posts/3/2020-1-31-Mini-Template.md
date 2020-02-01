@@ -4,7 +4,7 @@ title: Mini Mobile Game Template
 category: [code]
 ---
 **Overview**  
-A mini game template (mobile style).   
+A minimalistic game template for Godot (in mobile params).   
 
 [<img src="{{ site.baseurl }}/images/demo/result.png" style="width: 150px;"/>]({{ site.baseurl }}/)
 
