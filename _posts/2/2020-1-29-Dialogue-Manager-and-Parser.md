@@ -3,8 +3,7 @@ layout: post
 title: Reusable json dialogue parser
 category: [code]
 ---
-**Overview**  
-This is a dialogue manager I created in Godot. This dialogue manager is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
+This dialogue manager created in Godot is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
 
 <!--more-->
 
