@@ -32,9 +32,9 @@ A dialogue is the sentence or sentences to be displayed on screen at once. Such 
 Suppose we want to present this short conversation with branches:  
 [<img src="{{ site.baseurl }}/images/graphs/0120graph1.png" style="width: 480px;"/>]({{ site.baseurl }}/)
  
-
+The .json file should contain this:  
 <details>
-  <summary>The .json file should contain this: </summary>
+  <summary>Click to expand... </summary>
   {  
   "start": {  
     "call": ["optional_method"],  
