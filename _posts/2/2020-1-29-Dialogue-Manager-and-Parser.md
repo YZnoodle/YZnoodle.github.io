@@ -7,7 +7,7 @@ This dialogue manager created in Godot is reusable and allows quick creation of 
 
 <!--more-->
 
-[<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/)
+[<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/images/graphs/0120overview.png)
 
 **How to use**  
 At the start of the game:  
@@ -30,7 +30,7 @@ A dialogue is the sentence or sentences to be displayed on screen at once. Such 
 
 **Example**  
 Suppose we want to present this short conversation with branches:  
-[<img src="{{ site.baseurl }}/images/graphs/0120graph1.png" style="width: 480px;"/>]({{ site.baseurl }}/)
+[<img src="{{ site.baseurl }}/images/graphs/0120graph1.png" style="width: 480px;"/>]({{ site.baseurl }}/images/graphs/0120graph1.png)
  
 The .json file should contain this:  
 <details>
