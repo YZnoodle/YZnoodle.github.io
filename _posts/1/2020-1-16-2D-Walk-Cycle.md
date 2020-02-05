@@ -7,9 +7,7 @@ category: [art]
 
 <!--more-->
 
-Lessons learned:  
-One reason that my walk cycle looks choppy is because I am not keeping the shapes constant sized/volumed. For example, the size of the legs varies between frames. 
-If I spend a little longer refining the work, it should look better. It’s ok for platformers. But I don’t think it will look as good as I imagined for rpg.  
-And I finalized realized the benefit of pixel art, how much time it can save you.  
 
-
+TODO:  
+skate board pixel walk cycle  
+generic pixel walk cycle side, front, and back
