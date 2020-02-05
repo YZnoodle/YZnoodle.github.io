@@ -8,13 +8,13 @@ Minimalistic game template created in Godot.
 [<img src="{{ site.baseurl }}/images/demo/0220PC.png" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/0220PC.png)
 
 <!--more-->
-240x135px  
-low resolution PC, sizes up to 960x720px
+160x120px  
+low resolution PC or web, sizes up to 640x480px
 
 [<img src="{{ site.baseurl }}/images/demo/0220mobile.png" style="width: 200px;"/>]({{ site.baseurl }}/images/demo/0220mobile.png)
 
 90x160px  
-low resolution mobile
+mobile
 
 
 

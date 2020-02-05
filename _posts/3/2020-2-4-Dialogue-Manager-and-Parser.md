@@ -78,9 +78,8 @@ The .json file should contain this:
 </details>
 
 **Rules**  
-If there is time, I plan to write a rule checker to check if a json file is valid. But I want to test the parser out in a few projects first before committing too much time in this design because things might change.  
-Most of the rules should be intuitive and easily maintained if started with a graphical design like in the example above.  
-Here are the rules:  
+TODO: write a rule checker to check if a json file is valid.  
+Most of the rules should be intuitive and easily maintained if started with a graphical design like in the example above:  
 1. A graph must have a start block named “start”  
 2. Each block must contain key "dialogues", which must be a list of size greater than 0  
 3. Each object in "dialogues" must contain key "text", which must be a string  
@@ -89,7 +88,8 @@ Here are the rules:
 6. If last object in "dialogues" does not have "options" key,  block must be final OR "next\_blocks" has one and only one string member  
 
 **References**  
-Very useful website for creating json files:  https://jsoneditoronline.org/ 
+Very useful website for creating json files:  
+[https://jsoneditoronline.org](https://jsoneditoronline.org)
  
 
 
