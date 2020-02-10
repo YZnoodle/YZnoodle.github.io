@@ -3,7 +3,7 @@ layout: post
 title: Reusable json dialogue parser
 category: [code]
 ---
-This dialogue parser created in Godot is reusable and allows quick creation of mini games. It automatically parses a json file to buttons and label in your game. 
+This dialogue parser created in Godot is reusable and allows quick creation of mini games. It automatically parses a json file to texts in your game. 
 
 [<img src="{{ site.baseurl }}/images/demo/0220DialogueDemo.gif" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/0220DialogueDemo.gif)
 
@@ -11,27 +11,24 @@ This dialogue parser created in Godot is reusable and allows quick creation of m
 <!--more-->
 
 **How to use**   
-1. Instance a dialogue manager  
-2. Add dialogue manager to tree   
-3. Call dialogue manager with the conversation’s json file path  
-4. (Optional) If there are method calls associated with options, a signal call_emitted() will be emitted, first argument is a string of the method name. Method need to be handled outside the dialogue manager.  
-Then user clicks and clicks until conversation is over…  
+1. Instance a parser
+2. Add parser to tree   
+3. Call parser with the conversation’s json file path  
+4. Make buttons to show the parsed texts  
+5. (Optional) If there are method calls associated with options, a signal call_emitted() will be emitted, first argument is a string of the method name. Methods need to be handled outside the dialogue manager.  
+Then the user clicks and clicks until the conversation is over…  
 Repeat step 3 and 4 for a new conversation.  
 
-**Json format design**  
-Some terms I used to make this design:  
-*Graph*  
-A graph is a conversation with an entry point and one or more exit point. One json file equals one graph.  
-*Block*  
-A block is a sequence of dialogues with no jumps or branches.  
-*Dialogue*  
-A dialogue is the sentence or sentences to be displayed on screen at once. Such as “Hello”.  
-
-**Example**  
+**Step by Step Example**  
 Suppose we want to present this short conversation with branches:  
 [<img src="{{ site.baseurl }}/images/graphs/0120graph1.png" style="width: 480px;"/>]({{ site.baseurl }}/images/graphs/0120graph1.png)
  
-The .json file should contain this:  
+The first step is to write a json file. The json file will store this conversation in a special format. Some terminologies used in this design:  
+- *Graph*: a conversation with an entry point and one or more exit point. It is the json file that the parser receives.  
+- *Block*: a sequence of dialogues with no jumps or branches. A graph consists of one or more blocks. The first block must be named “start”.   
+- *Dialogue*: the sentence or sentences to be displayed on screen at once. Such as “Hello”. A block holds one or more dialogues in a json array named “dialogues”.  
+
+For this example, the .json file looks like this:  
 <details>
   <summary>Click to expand... </summary>
   {  
@@ -76,7 +73,20 @@ The .json file should contain this:
 }  
 </details>
 
-Result will look like the demo in the very begining of this post! 
+After you have created the .json file, instance parser.gd as a child of the main game node.  
+Then to show the parsed text, either write your own gui using the parser’s API, or copy and integrate my main.gd to your main and or gui node.  
+If you want to reference the existing main.gd, simply replace the following paths to your own:  
+
+<pre><code>#Path to dialogue text button
+onready var prompt_node = $"gui/screen/screen_content/prompt"
+#Path to the parent node of the options container  
+onready var dynamic_content_node = $"gui/screen/screen_content/dynamic_content"
+#Path to json file
+onready var json_path = "res://test.json"
+</code></pre>
+
+
+Done, the result should be similar to the demo at the very beginning of this post! 
 
 **TODO**  
 Write a rule checker to check if a json file is valid.  
@@ -91,13 +101,4 @@ Most of the rules should be intuitive and easily maintained if started with a gr
 **References**  
 Very useful website for creating json files:  
 [https://jsoneditoronline.org](https://jsoneditoronline.org)
- 
-
-
-
-
-
-
-
-
 
