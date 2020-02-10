@@ -5,9 +5,10 @@ category: [code]
 --- 
 Minimalistic game templates created in Godot. 
 
+<!--more-->
+
 [<img src="{{ site.baseurl }}/images/demo/0220PC.png" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/0220PC.png)
 
-<!--more-->
 160x120px  
 low resolution PC or web, sizes up to 640x480px
 [https://github.com/YZnoodle/MiniPCTemplate](https://github.com/YZnoodle/MiniPCTemplate) 
