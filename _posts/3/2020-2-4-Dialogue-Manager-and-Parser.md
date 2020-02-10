@@ -5,9 +5,9 @@ category: [code]
 ---
 This dialogue manager created in Godot is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
 
-[<img src="{{ site.baseurl }}/images/demo/0220DialogueDemo.gif" style="width: 480px;"/>]({{ site.baseurl }}/images/demo/0220DialogueDemo.gif)
+[<img src="{{ site.baseurl }}/images/demo/0220DialogueDemo.gif" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/0220DialogueDemo.gif)
 
-[https://github.com/YZnoodle/DailogueParser](https://github.com/YZnoodle/DailogueParser)  
+[Link to Github](https://github.com/YZnoodle/DailogueParser)  
 <!--more-->
 
 **How to use**   
