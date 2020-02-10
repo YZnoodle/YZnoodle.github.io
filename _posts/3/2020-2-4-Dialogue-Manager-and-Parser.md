@@ -5,15 +5,13 @@ category: [code]
 ---
 This dialogue manager created in Godot is reusable and allows quick creation of mini games. It comprises a simple dialogue GUI and a json parser.  
 
+[<img src="{{ site.baseurl }}/images/graphs/0220DialogueDemo.gif" style="width: 480px;"/>]({{ site.baseurl }}/images/graphs/0220DialogueDemo.gif)
+
 <!--more-->
 
-[<img src="{{ site.baseurl }}/images/graphs/0120overview.png" style="width: 480px;"/>]({{ site.baseurl }}/images/graphs/0120overview.png)
-
-**How to use**  
-At the start of the game:  
+**How to use**   
 1. Instance a dialogue manager  
-2. Add dialogue manager to tree  
-At a conversation:  
+2. Add dialogue manager to tree   
 3. Call dialogue manager with the conversation’s json file path  
 4. (Optional) If there are method calls associated with options, a signal call_emitted() will be emitted, first argument is a string of the method name. Method need to be handled outside the dialogue manager.  
 Then user clicks and clicks until conversation is over…  
@@ -77,8 +75,13 @@ The .json file should contain this:
 }  
 </details>
 
-**Rules**  
-TODO: write a rule checker to check if a json file is valid.  
+Result will look like the demo in the very begining of this post! 
+
+**Github Link**
+[https://github.com/YZnoodle/DailogueParser](https://github.com/YZnoodle/DailogueParser)
+
+**TODO**  
+Write a rule checker to check if a json file is valid.  
 Most of the rules should be intuitive and easily maintained if started with a graphical design like in the example above:  
 1. A graph must have a start block named “start”  
 2. Each block must contain key "dialogues", which must be a list of size greater than 0  
