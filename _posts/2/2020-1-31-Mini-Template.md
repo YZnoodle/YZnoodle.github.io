@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Minimalistic Game Templates
+title: Minimalistic Game Template
 category: [code]
 --- 
 Minimalistic game templates created in Godot.  
+  
 [Link to github](https://github.com/YZnoodle/MiniTemplate) 
 <!--more-->
 
