@@ -28,7 +28,7 @@ The first step is to write a json file. The json file will store this conversati
 - *Block*: a sequence of dialogues with no jumps or branches. A graph consists of one or more blocks. The first block must be named “start”.   
 - *Dialogue*: the sentence or sentences to be displayed on screen at once. Such as “Hello”. A block holds one or more dialogues in a json array named “dialogues”.  
 
-For this example, the .json file looks like this:  
+The .json file for this example looks like this:  
 <details>
   <summary>Click to expand... </summary>
   {  
