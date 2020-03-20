@@ -10,7 +10,7 @@ Minimalistic game templates created in Godot.
 
 [<img src="{{ site.baseurl }}/images/demo/0220PC.png" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/0220PC.png)
 
-160x120px, can be sized up to 640x480px
+160x120px, sizes up to 640x480px
 
 
 
