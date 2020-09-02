@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Managing System: Plant a Flower
+title: Time Managing System 
 category: [code]
 ---
 Manage time in Godot.  
