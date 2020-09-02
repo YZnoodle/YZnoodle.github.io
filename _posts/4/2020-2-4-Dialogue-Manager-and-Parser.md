@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Json Dialogue Parser
+title: Json Dialogue Parser (in depth)
 category: [code]
 ---
 This dialogue parser created in Godot is reusable and allows quick creation of mini games. Json file can be easily parsed into dialogue texts using this tool. 
