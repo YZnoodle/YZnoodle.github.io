@@ -4,7 +4,7 @@ title: Cat Miner - Recreating Gold Miner in Unity
 category: [code]
 ---
 
-[<img src="{{ site.baseurl }}/images/demo/0220DialogueDemo.gif" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/1008CMTitle.jpg)
+[<img src="{{ site.baseurl }}/images/demo/1008CMTitle.jpg" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/1008CMTitle.jpg)
 
 [Play in browser](https://badguts.itch.io/cat-miner
 ) 
