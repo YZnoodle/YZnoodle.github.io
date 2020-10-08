@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cat Miner: Recreating Gold Miner in Unity (in depth)
+title: Cat Miner \: Recreating Gold Miner in Unity (in depth)
 category: [code]
 ---
 
