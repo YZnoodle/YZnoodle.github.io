@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Json Dialogue Parser (in depth)
+title: Godot Json Dialogue Parser (in depth)
 category: [code]
 ---
 This dialogue parser created in Godot is reusable and allows quick creation of mini games. Json file can be easily parsed into dialogue texts using this tool. 
@@ -88,7 +88,7 @@ onready var json_path = "res://test.json"
 
 Done, the result should be similar to the demo at the very beginning of this post! 
 
-**TODO**  
+**Extention**  
 Write a rule checker to check if a json file is valid.  
 Most of the rules should be intuitive and easily maintained if started with a graphical design like in the example above:  
 1. A graph must have a start block named “start”  
