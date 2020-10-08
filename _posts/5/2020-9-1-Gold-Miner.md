@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Cat Miner \: Recreating Gold Miner in Unity (in depth)
+title: Cat Miner - Recreating Gold Miner in Unity
 category: [code]
 ---
 
 [<img src="{{ site.baseurl }}/images/demo/0220DialogueDemo.gif" style="width: 300px;"/>]({{ site.baseurl }}/images/demo/1008CMTitle.jpg)
 
+[Play in browser](https://badguts.itch.io/cat-miner
+) 
 <!--more-->
 
 **Intro**   
-Gold Miner has been one of my favourite game to pass time. It is simple enough, so I decided to recreate Gold Miner in Unity.  
+Gold Miner has been one of my favourite game to pass time. It is simple enough, so I decided to recreate Gold Miner in Unity with a slight twist: Cat miner.  
 In Gold Miner, a crane swings back and forth, and when the player hits the key, it will plunge down into the ground. The goal is to hit as much gold or jewel as possible with the crane's hook. 
 
 **Simulating the Rope**  
